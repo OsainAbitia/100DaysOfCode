@@ -26,9 +26,12 @@ class Scoreboard():
         self.states_found += 1
 
     def missing_states_csv(self):
-        for state in self.all_states:
-            if state not in self.guessed_states:
-                self.missing_states.append(state)
+        # Apply list comprehensions
+        self.missing_states = [
+            state for state in self.all_states if state not in self.guessed_states]
+        # for state in self.all_states:
+        #     if state not in self.guessed_states:
+        #         self.missing_states.append(state)
 
         new_data = pd.DataFrame(self.missing_states)
         new_data.to_csv("states_to_learn.csv")
