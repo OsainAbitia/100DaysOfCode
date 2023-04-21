@@ -15,6 +15,10 @@ the following values
 Run the script. It will keep running and checking every 60 seconds for new updates to notify 
 you when the ISS is above you. Once the script is running press `Ctrl + C` to stop its execution.
 
+## What you can learn here
+
+- API Calls
+
 ### API credits
 
 - ISS tracker: http://api.open-notify.org

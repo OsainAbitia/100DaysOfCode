@@ -14,6 +14,10 @@ the following values
 
 Run the script.
 
+## What you can learn here
+
+- Send emails with SMTP Python library 
+
 ### Side notes
 By default, this script uses Gmail to create the SMTP server, for new providers check your
 security settings and after testing the code, check your spam.
