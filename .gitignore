@@ -1,4 +1,7 @@
 day-29-password-manager/data.txt
 
+# Env file
+.env
+
 # Python cache
 */__pycache__/*
