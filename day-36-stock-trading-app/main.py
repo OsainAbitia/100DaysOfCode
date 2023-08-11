@@ -1,3 +1,4 @@
+"""Entrypoint for the application"""
 from stock_tracker import StockTracker
 from twilio_notifier import TwilioNotifier
 
@@ -10,4 +11,4 @@ if __name__ == "__main__":
         notifier = TwilioNotifier()
         notifier.send_sms(message)
     else:
-        print("No update to stock prices")
+        print("No update on stock prices")
